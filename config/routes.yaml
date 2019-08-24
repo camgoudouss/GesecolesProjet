@@ -1,3 +1,23 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+homepage:
+  path: /
+  controller: App\Controller\EcoleController::index
+
+ecole_gesecole:
+  path: /gesecole
+  controller: App\Controller\EcoleController::gesecole
+
+ecole_gespaye:
+  path: /gespaye
+  controller: App\Controller\EcoleController::gespaye
+
+ecole_gesperso:
+  path: /gesperso
+  controller: App\Controller\EcoleController::gesperso
+
+ecole_gesfinance:
+  path: /gesfinance
+  controller: App\Controller\EcoleController::gesfinance
+
